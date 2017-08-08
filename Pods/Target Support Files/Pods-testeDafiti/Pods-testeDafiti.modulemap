@@ -1,0 +1,6 @@
+framework module Pods_testeDafiti {
+  umbrella header "Pods-testeDafiti-umbrella.h"
+
+  export *
+  module * { export * }
+}

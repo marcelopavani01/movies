@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017B9F71F39FFF200B37013 /* customActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0017B9F61F39FFF200B37013 /* customActivity.swift */; };
+		003867911F38A877000A71D7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003867901F38A877000A71D7 /* Movie.swift */; };
+		005B229E1F3A38F600A00D7B /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005B229D1F3A38F600A00D7B /* SearchCollectionReusableView.swift */; };
+		00E7D6501F38C83C00255FE4 /* Fanart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7D64F1F38C83C00255FE4 /* Fanart.swift */; };
+		00E7D6581F38DB1100255FE4 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7D6571F38DB1100255FE4 /* HomeCollectionViewCell.swift */; };
+		00E7D65B1F38FBE800255FE4 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7D65A1F38FBE800255FE4 /* MovieDetailViewController.swift */; };
+		00E7D65D1F38FC3800255FE4 /* Trak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7D65C1F38FC3800255FE4 /* Trak.swift */; };
+		25EEB219865C04CA4AC9A37E /* Pods_testeDafiti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744124F97C3E66BFE28CA20F /* Pods_testeDafiti.framework */; };
 		40F755BD1F37A47A00CF850D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F755BC1F37A47A00CF850D /* AppDelegate.swift */; };
-		40F755BF1F37A47A00CF850D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F755BE1F37A47A00CF850D /* ViewController.swift */; };
+		40F755BF1F37A47A00CF850D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F755BE1F37A47A00CF850D /* HomeController.swift */; };
 		40F755C21F37A47A00CF850D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F755C01F37A47A00CF850D /* Main.storyboard */; };
 		40F755C41F37A47A00CF850D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F755C31F37A47A00CF850D /* Assets.xcassets */; };
 		40F755C71F37A47A00CF850D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F755C51F37A47A00CF850D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0017B9F61F39FFF200B37013 /* customActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customActivity.swift; sourceTree = "<group>"; };
+		003867901F38A877000A71D7 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		005B229D1F3A38F600A00D7B /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		00E7D64F1F38C83C00255FE4 /* Fanart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanart.swift; sourceTree = "<group>"; };
+		00E7D6571F38DB1100255FE4 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		00E7D65A1F38FBE800255FE4 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		00E7D65C1F38FC3800255FE4 /* Trak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trak.swift; sourceTree = "<group>"; };
 		40F755B91F37A47A00CF850D /* testeDafiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeDafiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F755BC1F37A47A00CF850D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40F755BE1F37A47A00CF850D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40F755BE1F37A47A00CF850D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		40F755C11F37A47A00CF850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40F755C31F37A47A00CF850D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40F755C61F37A47A00CF850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40F755C81F37A47A00CF850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744124F97C3E66BFE28CA20F /* Pods_testeDafiti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testeDafiti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884F0EF3F52D2C3C8F80A495 /* Pods-testeDafiti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeDafiti.release.xcconfig"; path = "Pods/Target Support Files/Pods-testeDafiti/Pods-testeDafiti.release.xcconfig"; sourceTree = "<group>"; };
+		F7F346AB3B19E4302D4E21F5 /* Pods-testeDafiti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testeDafiti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testeDafiti/Pods-testeDafiti.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EEB219865C04CA4AC9A37E /* Pods_testeDafiti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0017B9F51F39FFBF00B37013 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0017B9F61F39FFF200B37013 /* customActivity.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0038678C1F38A7B1000A71D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				003867901F38A877000A71D7 /* Movie.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		003867921F38A90A000A71D7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				00E7D65C1F38FC3800255FE4 /* Trak.swift */,
+				00E7D64F1F38C83C00255FE4 /* Fanart.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		00E7D6541F38DA8A00255FE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00E7D6591F38FBC400255FE4 /* Movie */,
+				00E7D6551F38DABC00255FE4 /* Home */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00E7D6551F38DABC00255FE4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				40F755BE1F37A47A00CF850D /* HomeController.swift */,
+				00E7D6571F38DB1100255FE4 /* HomeCollectionViewCell.swift */,
+				005B229D1F3A38F600A00D7B /* SearchCollectionReusableView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		00E7D6561F38DADA00255FE4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				40F755C01F37A47A00CF850D /* Main.storyboard */,
+				40F755C51F37A47A00CF850D /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		00E7D6591F38FBC400255FE4 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				00E7D65A1F38FBE800255FE4 /* MovieDetailViewController.swift */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
 		40F755B01F37A47A00CF850D = {
 			isa = PBXGroup;
 			children = (
 				40F755BB1F37A47A00CF850D /* testeDafiti */,
 				40F755BA1F37A47A00CF850D /* Products */,
+				96109BD2BDCA16D8B2A2784C /* Pods */,
+				67B4BFCDB11BB0D6F7846D4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +136,33 @@
 		40F755BB1F37A47A00CF850D /* testeDafiti */ = {
 			isa = PBXGroup;
 			children = (
+				0017B9F51F39FFBF00B37013 /* Util */,
+				00E7D6561F38DADA00255FE4 /* Storyboard */,
+				00E7D6541F38DA8A00255FE4 /* View */,
+				003867921F38A90A000A71D7 /* Api */,
+				0038678C1F38A7B1000A71D7 /* Model */,
 				40F755BC1F37A47A00CF850D /* AppDelegate.swift */,
-				40F755BE1F37A47A00CF850D /* ViewController.swift */,
-				40F755C01F37A47A00CF850D /* Main.storyboard */,
 				40F755C31F37A47A00CF850D /* Assets.xcassets */,
-				40F755C51F37A47A00CF850D /* LaunchScreen.storyboard */,
 				40F755C81F37A47A00CF850D /* Info.plist */,
 			);
 			path = testeDafiti;
+			sourceTree = "<group>";
+		};
+		67B4BFCDB11BB0D6F7846D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				744124F97C3E66BFE28CA20F /* Pods_testeDafiti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96109BD2BDCA16D8B2A2784C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F346AB3B19E4302D4E21F5 /* Pods-testeDafiti.debug.xcconfig */,
+				884F0EF3F52D2C3C8F80A495 /* Pods-testeDafiti.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40F755CB1F37A47A00CF850D /* Build configuration list for PBXNativeTarget "testeDafiti" */;
 			buildPhases = (
+				DE97B646783AC0414BF02A04 /* [CP] Check Pods Manifest.lock */,
 				40F755B51F37A47A00CF850D /* Sources */,
 				40F755B61F37A47A00CF850D /* Frameworks */,
 				40F755B71F37A47A00CF850D /* Resources */,
+				8D13204034461597BC4C3D43 /* [CP] Embed Pods Frameworks */,
+				A03818A7B457704B1FEFB621 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +200,7 @@
 				TargetAttributes = {
 					40F755B81F37A47A00CF850D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P8J583ZWC9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +236,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D13204034461597BC4C3D43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testeDafiti/Pods-testeDafiti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03818A7B457704B1FEFB621 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testeDafiti/Pods-testeDafiti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE97B646783AC0414BF02A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40F755B51F37A47A00CF850D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F755BF1F37A47A00CF850D /* ViewController.swift in Sources */,
+				005B229E1F3A38F600A00D7B /* SearchCollectionReusableView.swift in Sources */,
+				00E7D6581F38DB1100255FE4 /* HomeCollectionViewCell.swift in Sources */,
+				40F755BF1F37A47A00CF850D /* HomeController.swift in Sources */,
+				00E7D6501F38C83C00255FE4 /* Fanart.swift in Sources */,
 				40F755BD1F37A47A00CF850D /* AppDelegate.swift in Sources */,
+				00E7D65B1F38FBE800255FE4 /* MovieDetailViewController.swift in Sources */,
+				003867911F38A877000A71D7 /* Movie.swift in Sources */,
+				00E7D65D1F38FC3800255FE4 /* Trak.swift in Sources */,
+				0017B9F71F39FFF200B37013 /* customActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +420,10 @@
 		};
 		40F755CC1F37A47A00CF850D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F346AB3B19E4302D4E21F5 /* Pods-testeDafiti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8J583ZWC9;
 				INFOPLIST_FILE = testeDafiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marcelo.testeDafiti;
@@ -272,8 +434,10 @@
 		};
 		40F755CD1F37A47A00CF850D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884F0EF3F52D2C3C8F80A495 /* Pods-testeDafiti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8J583ZWC9;
 				INFOPLIST_FILE = testeDafiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = marcelo.testeDafiti;
@@ -301,6 +465,7 @@
 				40F755CD1F37A47A00CF850D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
